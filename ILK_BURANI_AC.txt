@@ -1,0 +1,12 @@
+VISION XƏBƏR — YEKUN PAKET
+
+1) Supabase SQL Editor: supabase/SERTIFIKAT_NOVLERI_YENILEME.sql faylının TAM mətnini RUN edin.
+   Əvvəlki CERTIFICATES_UPGRADE.sql artıq işlədilibsə onu təkrarlamayın.
+2) ZIP-in içindəki index.html, app.js, style.css, config.js, assets/ və .nojekyll fayllarını GitHub repozitoriyasının KÖK qovluğuna yerləşdirin.
+3) GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
+4) Sayt > Kabinet > Sertifikatlar. Növ, başlıq, ad, tədbir, tarix və mətn yazın.
+5) Yaratdığınız sertifikatın ID və QR doğrulama linki avtomatik yaranır.
+6) Sayt > Sertifikat yoxla bölməsində ID daxil edib təsdiqləyin.
+
+Vacib: Bu versiya Supabase backend-i tələb edir. AI yalnız sayt xəbərləri üzrə axtarış köməkçisidir.
+Hələ bütün 45 qabaqcıl modul tam server funksionallığında deyil. İctimai formaları yayımlamazdan əvvəl CAPTCHA və rate limiting tövsiyə olunur.
