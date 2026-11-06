@@ -1,7 +1,6 @@
-1) SQL Editor-da supabase/ADMIN_QEYDIYYAT_YENILEME.sql kodunu RUN et.
-2) ZIP içindəki index.html, app.js, style.css, config.js və assets qovluğunu GitHub əsas qovluğuna yerləşdir.
-3) GitHub Pages main /root yayımlandıqdan sonra saytı aç.
-4) Baş Admin kabineti → Admin statusları; yeni əməkdaş əvvəl /#/register səhifəsində qeydiyyatdan keçir, sonra burada admin/active et.
-5) Admin qeydiyyatının e-poçt təsdiqi Supabase Auth ayarlarından asılıdır.
-6) Saytın məzmunu real news bazasından gəlir. Saxta xəbər avtomatik yaradılmır.
-7) Vision AI saytdakı xəbərlərlə axtarış edir, xarici AI deyil.
+VISION XEBER - YEKUN TAM EKRAN
+1) Supabase SQL Editor: supabase/EDITORIAL_MODULES.sql faylindaki kodu RUN edin.
+2) ZIP-den cixan index.html, app.js, style.css, config.js, assets qovlugu ve diger fayllari GitHub repo ana qovluguna yukleyin.
+3) Github Pages: main / (root).
+4) Bas Admin hesabinizla daxil olun. Yeni iscilerin qeydiyyat formasi sonra head status tesdiqi teleb edir.
+Qeyd: AI sayt daxili komekcidir, real xarici LLM deyil. Tam 45 modullu istehsalat sistemi hələ deyil.

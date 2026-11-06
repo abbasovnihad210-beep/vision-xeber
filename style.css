@@ -40,3 +40,16 @@ header nav{justify-content:center;gap:clamp(10px,1.3vw,22px);flex-wrap:wrap}head
 @media(max-width:1050px){header nav{order:3;width:100%}.cabinet-buttons{margin-left:auto}.news-orbit{grid-template-columns:1fr}.orbit-graphic{height:280px}.ring{width:235px;height:235px}.ring-two{width:190px;height:190px}.orbit-core{width:145px;height:145px;font-size:60px}}
 @media(max-width:620px){.cabinet-buttons{width:100%;justify-content:center}.cabinet-buttons a{flex:1;justify-content:center;padding:10px 4px}.news-orbit{padding:27px 20px;min-height:unset}.news-orbit .orbit-copy h2{font-size:36px}.orbit-chip{font-size:9px}.tool-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.orbit-chip,.orbit-core,.ring,body:after{animation:none!important}}
+
+/* VISION XƏBƏR · TAM EKRAN İDARƏETMƏ */
+html,body{min-width:320px;width:100%;overflow-x:clip}
+.admin-fullscreen{width:100%;max-width:none;margin:0 auto;padding:28px clamp(12px,2.4vw,52px) 65px;min-height:calc(100vh - 120px);background:linear-gradient(145deg,#e9faff,#edfff4 52%,#f7fcff);}
+.admin-fullscreen .sectiontitle{width:100%;max-width:none;gap:18px;flex-wrap:wrap}
+.admin-fullscreen .adminlayout{display:grid;grid-template-columns:minmax(245px,19vw) minmax(0,1fr);gap:22px;width:100%;max-width:none;align-items:start}
+.admin-fullscreen .aside{max-height:calc(100vh - 110px);overflow:auto;position:sticky;top:12px;border-radius:22px;box-shadow:0 18px 40px #073e3b2e}
+.admin-fullscreen #adminBody{width:100%;max-width:none;min-width:0;min-height:calc(100vh - 220px);margin:0;padding:clamp(18px,2.5vw,40px);border-radius:24px}
+.aside-brand{padding:7px 10px 19px;color:#c5f7e3;font-weight:900;font-size:16px}.aside-brand small{font-size:11px;font-weight:400;display:block;color:#9dd4c3}
+.admin-fullscreen .dataitem{flex-wrap:wrap;gap:12px}.admin-fullscreen .dataitem>div:first-child{min-width:200px;max-width:100%;flex:1;overflow-wrap:anywhere}.admin-fullscreen .admin-actions{display:flex;gap:8px;flex-wrap:wrap}.admin-fullscreen .formgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mod-title{display:flex;justify-content:space-between;align-items:center;gap:18px}.record-form{margin:25px 0;padding:24px;background:#f1fbf7;border:1px solid #cfe7d8;border-radius:20px}.record-list{display:grid;gap:12px}.record-item p{white-space:pre-wrap;overflow-wrap:anywhere}.record-list .dataitem{align-items:flex-start}
+@media(max-width:880px){.admin-fullscreen .adminlayout{grid-template-columns:1fr}.admin-fullscreen .aside{position:static;max-height:none;display:flex;flex-wrap:wrap;gap:5px}.admin-fullscreen .aside button{width:auto;flex:1 1 165px}.aside-brand{width:100%}.admin-fullscreen #adminBody{min-height:60vh}.admin-fullscreen .formgrid{grid-template-columns:1fr}}
+@media(max-width:540px){.admin-fullscreen{padding:15px 10px 40px}.admin-fullscreen #adminBody{padding:15px}.admin-fullscreen .admin-actions{width:100%}}
