@@ -1,3 +1,4 @@
-// Supabase Dashboard > Project Settings > API: use Project URL and publishable/anon key.
-// NEVER place service_role or secret keys in this file.
-window.VISION_CONFIG={supabaseUrl:'PASTE_SUPABASE_PROJECT_URL',supabaseAnonKey:'PASTE_SUPABASE_PUBLISHABLE_KEY'};
+window.VISION_CONFIG = {
+  supabaseUrl: 'https://wfzeedrfawerpdcadlmu.supabase.co',
+  supabaseAnonKey: 'sb_publishable_gMPB_C8QLT6wu7mKgIT3Kg_I6ejNZ3v'
+};
