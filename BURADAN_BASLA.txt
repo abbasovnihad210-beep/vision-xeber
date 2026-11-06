@@ -1,0 +1,13 @@
+VISION XƏBƏR — YEKUN PAKET (06.11.2026)
+
+1. Bu ZIP faylını arxivdən çıxart.
+2. GitHub: https://github.com/abbasovnihad210-beep/vision-xeber
+3. Mövcud faylları BU paketin içindəkilərlə yenilə (index.html, app.js, style.css, config.js, assets). Fayllar repository KÖKÜNDƏ olmalıdır.
+4. GitHub > Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. Sayt ünvanı: https://abbasovnihad210-beep.github.io/vision-xeber/
+6. Mövcud Supabase cədvəlləri və Baş Admin head/active hesabı saxlanılır; SQL-i yenidən işə salmaq lazım deyil.
+7. Supabase Authentication > URL Configuration > Site URL və Redirect URLs sahəsinə GitHub Pages ünvanını əlavə et.
+
+Vacib: Lovable-da artıq dərc edilmiş vision-xeber.lovable.app domeni bu ZIP yükləməklə avtomatik yenilənmir. Bu ZIP GitHub Pages-də birbaşa işləyəcək. Lovable domenini eyni görünüşə keçirmək üçün həmin layihənin fayllarının yenilənməsi lazımdır.
+
+Məhdudiyyət: 45 modulun hamısı hazır deyil. Əsas xəbər, giriş/rol, müraciət, könüllülük, media bankı və xəbər arxivi Supabase əsasında işləyir; digər modulların bəziləri yalnız izahlı kabinet bölməsidir.
